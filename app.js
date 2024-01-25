@@ -3,3 +3,9 @@ function helloWorld() {
 }
 
 helloWorld()
+
+function helloUser(name) {
+	console.log(`Hello, ${name}`)
+}
+
+helloUser('Anton')
